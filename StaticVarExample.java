@@ -1,0 +1,15 @@
+public class StaticVarExample {
+
+  public static String myClassVar="Class or Static Variable";
+
+  public static void main(String[] args){
+
+    StaticVarExample obj = new StaticVarExample();
+    StaticVarExample obj2 = new StaticVarExample();
+    StaticVarExample obj3 = new StaticVarExample();
+
+    System.out.println(obj.myClassVar);
+    System.out.println(obj2.myClassVar);
+    System.out.println(obj3.myClassVar);
+  }//End of main
+}//End of FirstJavaProgram Class
